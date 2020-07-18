@@ -12,4 +12,11 @@ import "fmt"
 */
 func main() {
 	fmt.Println("hello world")
+
+	a := 2
+	b := &a
+	a = 3
+
+	fmt.Println("a: ", a)
+	fmt.Println("b: ", *b)
 }
